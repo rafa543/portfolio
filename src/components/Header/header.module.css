@@ -1,0 +1,42 @@
+.contaier {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 5vh;
+}
+
+.logo p {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #828282;
+}
+
+.logo span {
+  color: white;
+}
+
+.links {
+  display: flex;
+}
+
+.links span {
+  text-align: center;
+  color: white;
+  width: 150px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.botoes {
+  display: flex;
+  color: white;
+  gap: 20px;
+}
+
+.botao {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
