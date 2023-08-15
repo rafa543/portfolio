@@ -1,0 +1,48 @@
+.contaier {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 10rem;
+  color: white;
+  /* background-color: rebeccapurple; */
+}
+
+/* .welcome {
+  display: flex;
+  flex-direction: column;
+} */
+
+.welcome span {
+  font-size: 2rem;
+}
+
+.name {
+  color: #40ff21;
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.5rem;
+  margin: 20px 0;
+}
+
+.profession {
+  font-size: 2.188rem;
+  font-weight: bold;
+  letter-spacing: 0.438rem;
+  margin-bottom: 2.5rem;
+}
+
+.botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: #40ff21;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 0.8rem;
+  width: 230px;
+}
+
+.botao span {
+  font-size: 1rem;
+}
