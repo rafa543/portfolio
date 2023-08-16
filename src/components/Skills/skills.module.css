@@ -1,0 +1,38 @@
+.contaier {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  margin: 2rem 0rem;
+  height: 318px;
+  color: white;
+  background-color: #262323;
+}
+
+.items {
+  margin: 0px 10rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: #40ff21;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.title span {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.imagens {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 120px;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+}
