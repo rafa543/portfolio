@@ -1,0 +1,61 @@
+.contaier {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 10rem;
+  color: white;
+  /* background-color: rebeccapurple; */
+}
+
+.sobre {
+  width: 50%;
+}
+
+.sobre h2 {
+  font-size: 2rem;
+  color: #40ff21;
+  margin-bottom: 10px;
+}
+
+.sobre h2 span {
+  font-size: 2.5rem;
+  color: white;
+  margin-left: 10px;
+}
+
+.sobre p {
+  font-size: 1.25rem;
+  line-height: 30px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 20px 20px;
+  background-color: #5f5f5f;
+  width: 360px;
+}
+
+.card span {
+  color: #40ff21;
+  font-size: 1.5rem;
+}
+
+.infoCard h3 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.infoCard p {
+  color: #40ff21;
+  text-decoration: underline;
+}
